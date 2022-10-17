@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main prints upper and lowwer cases.
- * Return: Always 0 (success)
+ * main - prints upper and lowwer cases.
+ * Return:Always 0 (success)
  */
 int main(void)
 {
-	char lower ='a';
-	char upper ='A';
+	char lower = 'a';
+	char upper = 'A';
 
-	while (lower <= 'z');
+	while (lower <= 'z')
 {
 	putchar(lower);
 	lower++;
