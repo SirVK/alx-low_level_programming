@@ -6,7 +6,7 @@
  */
 void rev_string(char *s)
 {
-	int r
+	int r;
 		while (s[r] != '\n')
 		{
 			_putchar(s[r]);
